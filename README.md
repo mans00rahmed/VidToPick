@@ -1,12 +1,11 @@
 # VidToPick
 <hr>
 
+## Components of Vidtopick:
 - Project using backend of <a href="https://github.com/mans00rahmed/Automatic-Subtitle-File-Creation">ASFC</a> for generating subtitle file.
 
 - Front End using <a href="https://github.com/Mahnoor-ismail01/vidtopick">Django</a> Framework.
-  - `python manage.py makemigrations`
-  - `python manage.py migrate`
-  - `python manage.py runserver`
-  -  server at http://127.0.0.1:8000/
-  - admin:mansoorahmed
-  - pass:1234
+
+- <a href="https://github.com/mans00rahmed/markers">Player</a> that used to used as mediaplayer and instance marker.
+
+- <a href="https://github.com/mans00rahmed/wias">WIAS</a> for inverted indexing and searching query.
